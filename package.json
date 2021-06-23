@@ -1,0 +1,14 @@
+{
+  "name": "10_sass_exercice",
+  "version": "1.0.0",
+  "description": "SASS exercise",
+  "main": "index.js",
+  "scripts": {
+    "sasscompil": "sass sass:css --watch"
+  },
+  "author": "Jerome Salmon",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.35.1"
+  }
+}

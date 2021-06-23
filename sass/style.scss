@@ -1,0 +1,15 @@
+@import "mixin";
+@import "reset";
+@import "helpers";
+
+$widthCard: 50rem;
+$colorButton: green;
+$buttonPolice: "Montserrat", sans-serif;
+
+.card {
+    @include cardAndButton($widthCard, $colorButton, $buttonPolice);  
+}
+
+.anotherCard {
+    @include cardAndButton(60rem, orange,$buttonPolice);
+}
