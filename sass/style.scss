@@ -1,12 +1,12 @@
-@import "mixin";
 @import "reset";
 @import "helpers";
 @import "variables";
+@import "mixin";
 
 .card {
-    @include cardAndButton($widthCard, $colorButton, $buttonPolice);  
+    @include cardAndButton($widthCard, $colorButton, $colorLink);  
 }
 
 .anotherCard {
-    @include cardAndButton(60rem, orange,$buttonPolice);
+    @include cardAndButton(60rem, orange, orange);
 }

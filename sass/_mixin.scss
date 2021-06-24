@@ -1,9 +1,9 @@
-@mixin cardAndButton($widthCard, $colorButton, $buttonPolice) {
+@mixin cardAndButton($widthCard, $colorButton, $colorLink) {
     width: $widthCard;
     margin: 2rem auto;
     min-height: 100%;
     border-radius: 1rem;
-    font-family: $buttonPolice;
+    font-family: "Montserrat", sans-serif;;
     box-shadow: .5rem .5rem .5em grey;
     &-content {
         display: flex;
@@ -38,9 +38,10 @@
         padding: 1rem 1.5rem;
         margin-bottom: 2rem;
         border-radius: 1rem;
-        &:hover {
+        &:hover,
+        &:focus {
             color: white;
-            background-color: $colorButton;
+            background-color: $colorLink;
         }
     }
 }
